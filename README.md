@@ -1,8 +1,10 @@
-# SublimeText URL Handler on Linux (Ubuntu based)
+# Subl handler using Phpstorm on Linux (Ubuntu based)
 
-Enables SublimeText to open URL Scheme subl:// and txmt:// like these:
+Enables Phpstorm to open URL Scheme subl:// and txmt:// like these:
 
 `subl://open/?url=file:///etc/passwd&line=10&column=2`
+
+This is created for laravel error handler, it defaults to subl links to open files, but I use phpstorm, so made few changes to existing subl package from https://github.com/algorich/sublime-url-handler to use the phpstorm
 
 ## Installation
 
@@ -18,6 +20,6 @@ bash install
 Open a new tab on your browser and type: subl://open/?url=file:///etc/hosts
 
 
-## Thanks
+## Credits
 
-Thierry G. for his [post](http://goo.gl/bO6AZ).
+All credits goto owner of https://github.com/algorich/sublime-url-handler since I just made small change to make it work with phpstorm.
